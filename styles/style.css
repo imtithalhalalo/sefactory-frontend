@@ -1,0 +1,164 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+.color_green{
+    color: #18ea19;
+}
+
+a {
+  color: #ffff;
+}
+body {
+  font-family: Roboto;
+}
+.background-img {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5e4442200ffeee35974d1060/1586049970296-14DH7UEP2UWJREIELJ3K/IMG_9780.JPG");
+  height: 700px;
+  filter: opacity(90%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-bar {
+  margin: 0% 8%;
+  padding-top: 2%;
+  font-family: Roboto;
+  display: flex;
+}
+
+.nav-item {
+  padding-bottom: 2%;
+  width: fit-content;
+  height: fit-content;
+  margin: 1%;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+.space {
+  margin: 10% 8%;
+  width: 40%;
+}
+.white {
+  color: white;
+}
+
+.size {
+  font-size: 3em;
+}
+
+.smaller {
+  font-size: 1.5em;
+  margin-top: 10%;
+}
+.button-1 {
+  background-color: #18ea19;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.2em;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
+.button-2 {
+  background-color: #18ea19;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 25px;
+  text-align: center;
+  margin-top: 10%;
+  font-weight: 700;
+  line-height: 1.2em;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
+.flex{
+    display: flex;
+}
+.flex-space-evenly {
+    justify-content: space-evenly;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.item {
+    width:210px;
+    height:fit-content;
+    margin: 2%;
+    background:#ffff;
+}
+
+.item {
+    text-align: center;
+    padding: 0;
+}
+
+.image{
+    width:500px;
+}
+
+.container3{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.item-left{
+    width:50%;
+    height:fit-content;
+    margin-left: 12%;
+    background:#ffff;
+}
+
+.item-right{
+    width:50%;
+    height:fit-content;
+    margin: 2%;
+    background:#ffff;
+}
+.learn-more{
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #18ea19;
+    cursor: pointer;
+    font-size: 19px;
+    text-align: left;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.container4{
+    background-color: #18ea19;
+    padding-top: 3%;
+}
+.two-containers {
+    display: flex;
+    padding-top: 3%;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+}
+.small{
+    font-size: 1.9em;
+    margin-top: 10%;
+}
+
+.container6{
+    margin-left: 15%;
+    margin-right: 15%;
+}
