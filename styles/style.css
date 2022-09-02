@@ -70,6 +70,20 @@ body {
   text-transform: capitalize;
   font-size: 1.1rem;
 }
+
+.button-3 {
+  background-color: black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.2em;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
 .button-2 {
   background-color: #18ea19;
   border-radius: 4px;
@@ -191,7 +205,11 @@ img{
   height: 100%;
 }
 
-.container8{
+.container9 img{
+  height: 100%;
+  width: 25%;
+}
+.container8 {
   padding-top: 4%;
   background-color: white;
   align-content: center;
@@ -202,12 +220,31 @@ img{
   padding-right: 10%;
   padding-left: 10%;
 }
-.container7 > h1{
+
+.container9 {
+  padding-top: 4%;
+  background-color: white;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.container10{
+  background-color: #e6e6ee;
+}
+.container8 > h1{
   font-size: 48px;
   font-weight: bold;
   padding-bottom: 2%;
 }
-
+.container9 > h1{
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
 .dash{
   border: .1px solid black;
 }
